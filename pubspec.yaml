@@ -1,0 +1,20 @@
+name: agro_connect
+description: "An e-commerce grocery shopping platform that connect customers with the farmers directly, to avoid the middlemen and the price inflation of products."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
