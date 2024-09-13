@@ -2,9 +2,23 @@
 import 'package:agro_connect/pages/welcome_page.dart';
 export 'package:agro_connect/pages/welcome_page.dart';
 
+// CUSTOMER PAGES
+import 'package:agro_connect/pages/customer_pages/home_page.dart';
+export 'package:agro_connect/pages/customer_pages/home_page.dart';
+import 'package:agro_connect/pages/customer_pages/explore_page.dart';
+export 'package:agro_connect/pages/customer_pages/explore_page.dart';
+import 'package:agro_connect/pages/customer_pages/account_page.dart';
+export 'package:agro_connect/pages/customer_pages/account_page.dart';
+import 'package:agro_connect/pages/customer_pages/cart_page.dart';
+export 'package:agro_connect/pages/customer_pages/cart_page.dart';
+import 'package:agro_connect/pages/customer_pages/notifications_page.dart';
+export 'package:agro_connect/pages/customer_pages/notifications_page.dart';
+
 //  UTILITIES
 import 'package:agro_connect/utils/themes.dart';
 export 'package:agro_connect/utils/themes.dart';
+import 'package:agro_connect/utils/transitions.dart';
+export 'package:agro_connect/utils/transitions.dart';
 
 // CUSTOM WIDGETS
 import 'package:agro_connect/widgets/page_screen.dart';

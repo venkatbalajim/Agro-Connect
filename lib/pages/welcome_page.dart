@@ -1,3 +1,5 @@
+import 'package:agro_connect/pages/customer_pages/main_page.dart';
+
 import '../utils/imports.dart';
 
 class WelcomePage extends StatefulWidget {
@@ -154,7 +156,10 @@ class WelcomePageState extends State<WelcomePage> {
                 padding: EdgeInsets.symmetric(horizontal: responsiveWidth(0.1)),
                 child: ElevatedButton(
                   onPressed: () {
-                    // Navigate to the home page ...
+                    Navigator.push(
+                      context,
+                      SlideTransitionRoute(page: const CMainPage()),
+                    );
                   },
                   style: ButtonStyle(
                     backgroundColor: WidgetStatePropertyAll(Colors.green[800]),
